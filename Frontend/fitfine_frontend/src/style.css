@@ -1,0 +1,84 @@
+.container{
+  margin-top: 26px;
+}
+.newarrival{
+  background: green;
+  width: 50px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.col-md-7 h2{
+  color: #555;
+}
+.star{
+  height: 25px;
+}
+.price{
+  color: #FE980F;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+#DetailsInput{
+  border: 1px solid #ccc;
+  font-weight: bold;
+  height: 33px;
+  text-align: center;
+  width: 30px;
+  margin-left: 2%;
+}
+#button{
+  float: right;
+}
+.cart{
+  background: #fdae02;
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+/*Default style*/
+.App {
+  text-align: center;
+}
+
+.Border{
+  border-color: rgb(253, 216, 2); 
+  box-shadow: 0 4px 8px 0 rgba(179, 14, 14, 0.2), 0 6px 20px 0 rgba(119, 19, 19, 0.19);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

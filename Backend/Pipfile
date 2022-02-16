@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+braintree = "*"
+django = "<=3"
+djangorestframework = "==3.7.7"
+django-cors-headers = "==3.3.0"
+spacy = "*"
+cython = "*"
+cytoolz = "==0.11.0"
+eth-utils = "*"
+django-utils-six = "*"
+auditlog3 = "*"
+django-oscar = {extras = ["sorl-thumbnail"], version = "*"}
+django-redis = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
